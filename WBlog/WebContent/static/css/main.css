@@ -1,0 +1,109 @@
+body{
+	background:url("img/loginbcg.jpg");
+}
+/*整体*/
+.totality {
+	width: 100%;
+	height: 100%;
+	
+}
+
+/*登录*/
+.entry {
+	width: 590px;
+	height: 330px;
+	background: white;
+	margin-top: 200px;
+	margin-left: 463px;
+	color: #666;
+	border-radius: 5px;
+
+	/* 	text-align: center; */
+}
+
+.header {
+	margin-top: 20px;
+}
+
+.entry:before {
+	content: " ";
+	display: table;
+}
+
+.entry .header a {
+	border-bottom: 3px solid #fa7d3c;
+	color: #000;
+	margin-bottom: -1px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	line-height: 30px;
+	margin-left: 155px;
+	color: #666;
+}
+
+.entry .shuru {
+	margin-top: 30px;
+	font-size: 20px;
+	margin-left: 140px;
+	color: #666;
+}
+
+.entry .shuru input {
+	border: 1px solid #d8d8d8;
+	width: 220px;
+	height: 32px;
+	border-radius: 4px;
+	text-align:center;
+}
+
+.entry .foot {
+	margin-left: 5px;
+	font-size:15px;
+}
+
+.entry .foot input {
+	font-size:15px;
+}
+
+.entry .foot a {
+	margin-left: 120px;
+	font-style: bold;
+	color: #ffa800;
+	text-decoration: none;
+}
+
+.entry .foot a:hover {
+	text-decoration: underline;
+}
+
+button {
+
+	width: 300px;
+	height: 42px;
+	margin-top: 10px;
+	font: 15px bold;
+	background: #ffa800;
+	border-radius: 5px;
+	border: 1px solid;
+	color: #fff;
+	font-size:18px; 
+}
+
+.entry .other {
+	margin-left: 66px;
+	font-size:18px;
+}
+
+.entry .other p {
+	color: #666;
+}
+
+.entry .other a {
+	color: red;
+	text-decoration: none;
+}
+
+.entry .other a:hover {
+	text-decoration: underline;
+}
